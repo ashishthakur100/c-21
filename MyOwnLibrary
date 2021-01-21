@@ -1,0 +1,16 @@
+function isTouching(Object1,object2)
+{
+
+  if (Object1.x - object2.x < object2.width/2 + Object1.width/2
+    && object2.x - Object1.x < object2.width/2 + Object1.width/2
+    && Object1.y - object2.y < object2.height/2 + Object1.height/2
+    && object2.y - Object1.y < object2.height/2 + Object1.height/2) {
+  return true;
+}
+else {
+
+  return false;
+}
+
+  
+}
